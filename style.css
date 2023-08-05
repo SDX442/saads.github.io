@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Borel&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Borel&family=Oswald&family=Signika+Negative:wght@300&display=swap');
 
 
 * {
@@ -11,7 +12,7 @@
     
 }
 body{
-    background-image:url('images/15084_800x480.jpg');
+    background-image:url('images/S.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -22,7 +23,7 @@ li , a, button {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-decoration:wavy;
 
 }
@@ -46,10 +47,15 @@ header{
     
 
     
+
+    
     
     
  
 
+}
+.logo:hover{
+    color: #fff;
 }
 nav{
     border: none;
@@ -60,6 +66,7 @@ nav{
     padding-right:20px ;
     background-image:url('images/téléchargé.jpg') ;
     background-size: cover;
+    position: fixed;
 }
 .nav__links{
     list-style: none;
@@ -75,24 +82,27 @@ nav{
 .nav__links li a {
     transition: all 2s ease 0s;
     font-size: 150%;
-    color:rgb(83, 45, 196) ;
+    color:rgb(132, 20, 20) ;
 
     font-size: 35px;
     font-family: Anton;
 
 }
 .nav__links li a:hover{
-    color: rgb(212, 110, 27);
+    color: rgb(255, 255, 255);
 }
 
 button {
     padding:9px 25px;
-    background-color: rgb(216, 148, 11);
+    background-color: rgb(5, 4, 3);
+    color: #641311;
     border: none;
     border-radius: 50px;
     cursor: pointer ;
     transition: all 0.3s ease 0s;
     font-size: 130%;
+    font-family: Anton;
+    font-size: 30px;
 }
 .section {
     display: flex;
@@ -104,7 +114,7 @@ button {
 }
 
 .section h2 {
-    color: rgb(220, 164, 11);
+    color: rgb(9, 9, 7);
     margin: 4%;
     border: none ;
     padding-left: 40%;
@@ -119,6 +129,8 @@ button {
 }
 .section img{
     height: 300px ; 
+    opacity: 0.5;
+    margin-top: 8%;
    
     
      
@@ -127,13 +139,18 @@ button {
 
 
 }
+.section img:hover{
+    opacity: 1;
+}
 .section p{
     color: aliceblue; 
     margin: 2px;
     padding: 10px;
-    font-size: 150%;
+    font-size: 160%;
+    padding-right: 10%;
+    padding-right: 10%;
    
-    font-family: "Oswald", sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav__links{
     background-color: visd;
@@ -167,7 +184,7 @@ form{
     border-radius: 10px;
 }
 form h3{
-    color: #b1800e;
+    color: #000000;
     font-weight: 800;
     margin-bottom: 20px;
     background: #ffffff;
@@ -182,8 +199,8 @@ form input , form textarea {
 
 }
 footer {
-    background-color: #634b12;
-    color: #fff;
+    background-image:url('images/téléchargé.jpg');
+    color: #941818;
     text-align: center;
     padding: 10px;
     font-size: 25px;
@@ -191,4 +208,32 @@ footer {
 }
 button:hover {
     color: azure;
+}
+section .icons{
+    position: absolute;
+    top: 50%;
+    padding-left: 95%;
+    transform: translateY(-50%);
+    color: #d4d6dd;
+    position: fixed;
+    
+    
+   
+}
+section .icons img {
+    display: block;
+    margin: 40px;
+    font-size: 40px;
+    color: #e41b1b;
+    transition: all .50s ease;
+    size: 90px;
+    border:none;
+    background-color: #e4c8c7;
+    border-width: 5px;
+    border-radius: 5px;
+    
+    
+}
+section .icons :hover{
+    background-color: #771a15;
 }

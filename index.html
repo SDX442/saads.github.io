@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAADS</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/s-bahn-1-logo-removebg-preview.png">
     
 </head>
 <body>
     <header>
-        <img class="logo" src="images/stock-vector-orange-product-development-icon-isolated-on-white-background-gear-and-cube-product-development-1360829903-removebg-preview.png" alt="logo">
+        <img class="logo" src="images/s-bahn-1-logo-removebg-preview.png" alt="logo">
         
         
         <nav>
             <ul class="nav__links">
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button>Contact</button></a>
+        <a class="cta" href="#contact"><button>Contact</button></a>
     </header>
     <div class="section">
-        <img src="images/5422814.webp" alt="">
+        <img src="images/6964026.webp" alt="">
         <div class="text">
-            <h2>
+            <h2 id ='about'>
                 About 
             </h2>
             <p>
@@ -36,14 +37,24 @@
     
     
     </div>
+    <section>
+        <div  class="icons">
+            <a href="#"><img src="images/instagram-line.png"></img></a>
+            <a href="https://www.linkedin.com/in/saad-eddine-hachlaf-243257287/"><img src="images/linkedin-box-line (3).png"></img></a>
+            <a href="#"><img src="images/facebook-box-line.png"></img></a>
+           
+        </div>
+    </section>
+    
+    
     <div class="section">
         <img src="images/fast-time-9202982-7520612-removebg-preview.png" alt="">
         <div class="text">
-            <h2 class="service">
+            <h2 id ='services' class="service">
                 Services
             </h2>
             <p>
-                We offer end-to-end blockchain infrastructure development services, including the design and implementation of custom blockchain networks, consensus mechanisms, and security protocols. Our team can help you build scalable, secure, and efficient blockchain solutions tailored to your unique needs.
+                We offer end-to-end blockchain infrastructure development services, including the design and implementation of custom blockchain networks, consensus mechanisms, and security protocols. Our team can help you build scalable, secure, and efficient blockchain solutions tailored to your unique needs.Custom web application development involves creating tailor-made software applications that run in a web browser and serve specific business needs. These applications are designed and built from scratch to match the unique requirements of a client's business processes, making them highly specialized and efficient
                 
 
             </p> 
@@ -52,8 +63,27 @@
     
     
     </div>
+    <div class="section">
+        <img src="images/7056b380736609b2942eac2c65a8ae2e-removebg-preview.png" alt="">
+        <div class="text">
+            <h2 id="projects" class="service">
+                Projects
+            </h2>
+            <p>
+                We offer end-to-end blockchain infrastructure development services, including the design and implementation of custom blockchain networks, consensus mechanisms, and security protocols. Our team can help you build scalable, secure, and efficient blockchain solutions tailored to your unique needs.Custom web application development involves creating tailor-made software applications that run in a web browser and serve specific business needs. These applications are designed and built from scratch to match the unique requirements of a client's business processes, making them highly specialized and efficient
+
+                
+
+            </p> 
+
+        </div>
+    
+    
+    </div>
+    
+ 
     <div class="container">
-        <form action="https://formspree.io/f/xaygqzkz"
+        <form id ='contact' action="https://formspree.io/f/xaygqzkz"
         method="POST">
             <h3>
                 GET IN TOUCH
@@ -61,7 +91,7 @@
             <input type="text" id="name" name="name" placeholder="Your Name " required>
             <input type="email" id="email" name="email" placeholder="Your Email " required>
             <input type="text" id="phone" name="phone" placeholder="Phone" required>
-            <textarea  id="message" name="message"  rows="4" placeholder="How can we help you"></textarea>
+            <textarea  id="message" name="message" rows="4" placeholder="How can we help you"></textarea>
             <button type="submit">Send</button>
         </form>
 
@@ -72,9 +102,11 @@
 
     </div>
     
+    
     <footer>
         <p>saadeddine.hachlaf@gmail.com</p>
     </footer>
+    
     
 </body>
 </html>
